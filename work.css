@@ -44,11 +44,11 @@ img{
   background-repeat: no-repeat;
   border-bottom: 10px solid #432;
 }
-/* WORK ME */
+/* WORK */
 #work{
   background-image: url(./images/antique-art-books-1448709.jpg);
   height: 270px;
-  margin-bottom: 40px;
+
 }
 
 #work .page-title{
@@ -64,6 +64,10 @@ img{
 }
 
 /* sections */
+.section-container{
+  background-color: #fff9c4;
+  padding-bottom: 30px;
+}
 
 .works-title{
   font-family: 'Acme', sans-serif;
@@ -88,7 +92,7 @@ img{
 .btn{
   text-align: center;
   margin-top: 30px;
-  margin-bottom: 30px;
+  
 }
 .button{
   background: #0bd;
