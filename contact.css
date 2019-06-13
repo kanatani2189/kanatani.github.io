@@ -43,10 +43,11 @@ img{
 }
 .big-bg{
   background-size: cover;
-  background-position: center top;
+  background-position: right top;
   background-repeat: no-repeat;
 }
 
+/* お問い合わせ */
 #contact{
   background-image: url('./images/black-and-white-black-and-white-casual-270968.jpg');
   min-height: 100vh;
@@ -54,6 +55,54 @@ img{
 }
 .page-title{
   font-size: 60px;
-  font-family: 'Luckiest Guy', cursive;
-  
+  font-family: 'Luckiest Guy', cursive;  
+}
+
+form div{
+  margin-bottom: 14px;
+}
+
+label{
+  font-size: 1.125rem;
+  margin-bottom: 10px;
+  display: block;
+}
+
+input[type= "text"], 
+input[type= "email"],
+textarea{
+  background: rgba(0,206,209, .5);
+  border: 1px #432 solid;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+input[type= "text"],
+input[type= "email"]{
+  width: 100%;
+  max-width: 240px;
+}
+
+textarea{
+  width: 100%;
+  max-width: 480px;
+  height: 6rem;
+}
+
+input[type= "submit"]{
+  border: none;
+  cursor: pointer;
+  line-height: 1;
+}
+.button{
+  font-size: 1.375rem;
+  background: #432;
+  color: #fff;
+  border-radius: 5px;
+  padding: 18px 35px;
+  margin-right: 10px;
+}
+.button:hover {
+  background: #0090aa;
 }
