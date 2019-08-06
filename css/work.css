@@ -23,11 +23,11 @@ img{
 }
 .main-nav li{
   margin-left: 36px;
- 
 }
 .main-nav a{
   color: #fff;
 }
+
 .main-nav a:hover{
   color: #0bd;
 }
@@ -44,15 +44,16 @@ img{
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
+  border-bottom: 10px solid #432;
 }
-/* ABOUT ME */
-#about{
-  background-image: url(./images/audio-close-up-electronics-1389429.jpg);
+/* WORK */
+#work{
+  background-image: url(../images/antique-art-books-1448709.jpg);
   height: 270px;
-  margin-bottom: 40px;
+
 }
 
-#about .page-title{
+#work .page-title{
   text-align: left;
 
 }
@@ -63,39 +64,56 @@ img{
   font-weight: normal;
   color: #fff;
 }
-.profile{
-  display: flex;
-  margin-bottom: 50px;
-  border-bottom: 5px solid #0bd;
+
+/* sections */
+.section-container{
+  background-color: #fff9c4;
+  padding-bottom: 30px;
 }
 
-img {
-  border-radius: 100%;
-  shape-outside: circle();
-  height: 180px;
-  width: 180px;
-  margin-bottom: 20px;
-}
-.profile p{
-  padding-left: 20px;
-  padding-top: 20px;
-}
-
-.engineer{
-  margin-bottom: 50px;
-}
-.why {
+.works-title{
   font-family: 'Acme', sans-serif;
   font-size: 36px;
-  margin-bottom: 20px;
+  text-align: center;
+}
+.sub-title{
+  text-align: center;
+  margin-bottom: 30px;
+}
+.work-img{
+  display: flex;
+  margin-bottom: 50px;
+}
+img{
+  height: 330px;
+  width: 530px;
+  margin-right: 30px;
+  box-shadow: 0px 3px 10px rgba(0,0,0,0.2);
+  border-radius: 5px;
+}
+.btn{
+  text-align: center;
+  margin-top: 30px;
+  
+}
+.button{
+  background: #0bd;
+  color: #fff;
+  border-radius: 50px;
+  margin: auto;
+  display: block;
+  width: 600px;
+  font-size: 25px;
+}
+.button:hover {
+  background: #0090aa;
 }
 
-.skill{
-  margin-bottom: 100px;
-}
-ol{
-  list-style-type: decimal;
-  list-style-position: inside;
+.border{
+  border-bottom: 8px solid #432;
+  border-radius: 50px;
+  margin-bottom: 50px;
+  margin-top: 100px;
 }
 
 /* フッター */
