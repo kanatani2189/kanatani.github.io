@@ -1,1 +1,0 @@
-# kanatani.github.io
